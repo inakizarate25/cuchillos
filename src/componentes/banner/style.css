@@ -1,0 +1,15 @@
+.baner {
+    background-image: url("../../assets/baner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 120px;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}

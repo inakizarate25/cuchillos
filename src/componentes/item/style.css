@@ -1,0 +1,41 @@
+.card {
+    height: 400px;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px;
+    box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
+    transition: all 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: all 0.3s;
+}
+
+.img {
+    height: 200px;
+    width: 220px;
+    object-fit: cover;
+}
+
+.nombre {
+    font-size: 22px;
+    font-weight: 500;
+    align-self: flex-start;
+}
+
+.precio {
+    font-size: 22px;
+    font-weight: 500;
+    align-self: flex-start;
+    padding: 10px 16px;
+    background-color: #030b24;
+    color: aliceblue;
+    border-radius: 8px;
+}
